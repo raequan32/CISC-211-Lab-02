@@ -11,7 +11,7 @@
 /* create a string */
     
 /*** STUDENTS: HINT: this is the string that the C code prints out!  **/
-nameStr: .asciz "Hello. My name is Inigo Montoya."  
+nameStr: .asciz "Hello. My name is RaeQuan Williams."  
 
  .align
  
@@ -55,8 +55,8 @@ asmFunc:
     push {r4-r11,LR}
     
     /*** STUDENTS: Place your code BELOW this line!!! **************/
-
-
+    ADD Rd, Rm, Rn
+    
     /*** STUDENTS: Place your code ABOVE this line!!! **************/
     
     /* restore the caller's registers, as required by the 
