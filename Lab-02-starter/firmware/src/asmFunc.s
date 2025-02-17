@@ -55,7 +55,6 @@ asmFunc:
     push {r4-r11,LR}
     
     /*** STUDENTS: Place your code BELOW this line!!! **************/
-    ADD Rd, Rm, Rn
     
     /*** STUDENTS: Place your code ABOVE this line!!! **************/
     
